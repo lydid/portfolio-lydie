@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&family=Tangerine&display=swap"
+      rel="stylesheet" />
+
+    <script defer src="js/script.js"></script>
+
+    <title>Porfolio Lydie Obermannova</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img
+          class="logo"
+          alt="Lydie Obermannova logo"
+          src="./images/Lydie-logo.svg" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#about">About</a></li>
+          <li><a class="main-nav-link" href="#skills-id">Skills</a></li>
+          <li><a class="main-nav-link" href="#portfolio-id">Portfolio</a></li>
+          <li><a class="main-nav-link" href="#footer-id">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <main>
+      <section class="section-hero">
+        <div class="hero-container">
+          <div class="text-title">
+            <h1>a web designer</h1>
+            <p class="lydie-name">Lydie Obermannova</p>
+          </div>
+          <div class="hero-img-box">
+            <img
+              src="./images/decor_monstera.png"
+              alt="decoration"
+              class="hero-decor-main" />
+          </div>
+        </div>
+      </section>
+      <section class="section-about" id="about">
+        <div class="container-about">
+          <img
+            class="portfolio-img"
+            src="./images/lydie.jpg"
+            alt="profile image" />
+          <div class="text-about">
+            <h2>Hello</h2>
+            <h3 class="web-developer-text">I am a Web Developer.</h3>
+            <p class="about">
+              I am currently working as HR in social services but I work heavily
+              every day to be what I always wanted to be.
+            </p>
+          </div>
+          <img
+            src="./images/decor_spray.png"
+            alt="decor spray"
+            class="decor-spray" />
+          <img src="./images/decor3.png" alt="deroration" class="decor-3" />
+        </div>
+      </section>
+
+      <section class="section-skills" id="skills-id">
+        <h2 class="skills-heading">My Skills</h2>
+        <div class="skill-flex-container">
+          <img
+            class="skill-deco-circle"
+            src="./images/5.png"
+            alt="decoration circle" />
+
+          <div class="container-skills">
+            <div class="skill">
+              <ion-icon class="skill-icon" name="logo-html5"></ion-icon>
+              <p class="skill-title">HTML 5</p>
+              <p class="skill-text">
+                Many years ago, I started my coding journey by learning the
+                basics in a text editor. Back then, web layouts were often built
+                using forms or tables. Feeling uninspired by my university
+                studies, I found greater meaning in creating my own web pages.
+              </p>
+            </div>
+            <div class="skill">
+              <ion-icon class="skill-icon" name="logo-css3"></ion-icon>
+              <p class="skill-title">CSS 3</p>
+              <p class="skill-text">
+                It has been half a year since I started studying HTML5 and CSS3
+                on a daily basis, and I have to say that I am happy to have such
+                powerful tools like Grid and Flexbox. However, my favorite
+                properties at the moment are z-index and transition.
+              </p>
+            </div>
+            <div class="skill">
+              <ion-icon class="skill-icon" name="people-outline"></ion-icon>
+              <p class="skill-title">Communication</p>
+              <p class="skill-text">
+                I possess the ability to connect with people on a personal
+                level, understanding their perspectives and fostering a sense of
+                laughter and joy. Furthermore, my adeptness in written
+                communication extends to my proficiency in crafting engaging and
+                effective emails.
+              </p>
+            </div>
+            <div class="skill">
+              <ion-icon
+                class="skill-icon"
+                name="color-palette-outline"></ion-icon>
+              <p class="skill-title">Creativity</p>
+              <p class="skill-text">
+                I consider myself a creative person with a passion for various
+                artistic pursuits. When I'm not working, you'll often find me
+                engrossed in embroidery or painting, channeling my creativity
+                into tangible forms.
+              </p>
+            </div>
+          </div>
+          <img
+            class="skill-deco-smudges"
+            src="./images/6.png"
+            alt="decoration smudges" />
+        </div>
+      </section>
+
+      <section class="section-portfolio" id="portfolio-id">
+        <h2 class="portfolio-heading">My portfolio</h2>
+        <div class="container portfolio">
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide carousel-dark">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="https://omnifood-lydie.netlify.app"
+                  ><img
+                    src="./images/omnifood_project.png"
+                    class="d-block w-100"
+                    alt="Omnifood project"
+                /></a>
+              </div>
+              <div class="carousel-item">
+                <a href="https://lydid.github.io/online-resume/"
+                  ><img
+                    src="./images/html_css_portfolio.png"
+                    class="d-block w-100"
+                    alt="Lydie Obermannova resume"
+                /></a>
+              </div>
+              <div class="carousel-item">
+                <a href="https://lydid.github.io/Mondrian-Project/"
+                  ><img
+                    src="./images/mondrian.png"
+                    class="d-block w-100"
+                    alt="mondrian grid"
+                /></a>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev">
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next">
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="footer-id">
+      <div class="container-general grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img
+              class="logo"
+              alt="Omnifood logo"
+              src="./images/Lydie-logo.svg" />
+          </a>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; 2023 by Lydie Obermannova. All rights reserved.
+          </p>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading">Contact me</p>
+
+          <address class="contacts">
+            <p class="address">Podolska 293, Prague 4</p>
+            <p>
+              <a class="footer-link" href="tel:(00420)732348149">
+                +420 732 348 149 </a
+              ><br />
+              <a class="footer-link" href="mailto:lydie.ober@gmail.com"
+                >lydie.ober@gmail.com</a
+              >
+            </p>
+          </address>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
+
+<!-- 
+  COLORS:
+
+  PINK: #F2D8D8 
+  GREEN: #5C8984
+  DARK BLUE (lighter): #545B77
+  DARK BLUE (darker): #374259
+
+  TINS and shades:
+  pink #fbf3f3  #c2adad  #dac2c2  #f7e8e8
+  green: #cedcda  #eff3f3
+  lighterblue: #ccced6
+
+ -->
